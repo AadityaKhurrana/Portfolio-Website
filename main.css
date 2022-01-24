@@ -12,20 +12,19 @@ header
     justify-content: space-between;
     padding: 0 2rem;
     background-color: #949ba0;
-    height:8vh;
+    height:6rem;
 }
 .name
 {
     position: relative;
-    top: 1.2rem;
-    font-weight: 400;
-    font-size: 1.5rem;
+    top: 1.3rem;
+    font-size: 2rem;
     color: #f1f5f9;
 }
 nav
 {
     position: relative;
-    top:1.3rem;
+    top: 2rem;
 }
 .nav-ul
 {
@@ -41,14 +40,21 @@ nav
 {
     text-decoration: none;
     color:#f1f5f9;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     padding:0rem .5rem;
     cursor: pointer;
 }
-a:hover
+.main-a
+{
+    color: black;
+    font-size:1.5rem ;
+    text-decoration: underline;
+}
+.hover-a:hover
 {
     color:black;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+   
 }
 section
 {
@@ -67,23 +73,60 @@ section
 }
 article
 {
+    text-align: center;
     margin: 2rem;
-    display: flex;
-    justify-content: space-between;
-    max-width: 70vw;
+    max-width: 60vw;
     margin: auto;
 }
 article div
 {
-    text-align: center;
     margin: 1rem;
 }
-.article-p
+article p
 {
+    position:relative ;
+    left: 8vw;
+    font-size: 1.2rem;
     text-align: justify;
+}
+article h1
+{
+    position: relative;
+    left: 10rem;
+}
+.language
+{
+    position: relative;
+    left: 2.5vw;
+    max-width: 45vw;
+    height: 12rem;
+    margin: auto;
+    border: .1rem solid #f1f5f9;
+    box-shadow: 2px 2px 8px #888888;
+    background-color: #f1f5f9;
+}
+.language1
+{
+    position: relative;
+    left:.1vw;
+    max-width: 45vw;
+    height: 12rem;
+    margin: auto;
+    border: .1rem solid #f1f5f9;
+    box-shadow: 2px 2px 8px #888888;
+    background-color: #f1f5f9;
+}
+
+.skill-p
+{
+    padding: .5rem;
+    position: relative;
+    left: 1rem;
 }
 footer
 {
+    position: relative;
+    top: 30rem;
     text-align: center;
     background-color: black;
     color:white;
@@ -92,6 +135,6 @@ footer
 footer>h1
 {
     position: relative;
-    top: 1.5rem;
+    top: 1rem;
     font-weight: 400;
 }
